@@ -10,6 +10,9 @@ html {
 }
 p {
     line-height: 2;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
 }
 body {
     font-family: 'Krub', sans-serif;
@@ -29,24 +32,15 @@ h1, h2{
 h2 {
     font-size: 2.4rem;
 }
-
-
-.navegacion {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.contenedor {
+    margin: 0 auto;
+    max-width: 1200px;
 }
-
-
 .nav-bg {
     background-color: var(--secundario);
 }
 
 .navegacion {
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -123,8 +117,6 @@ h2 {
     background-color: var(--gris);
     padding: 2rem;
     border-radius: 10px;
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
 }
 .formulario legend {
     text-align: center;
@@ -198,8 +190,6 @@ h2 {
     background-color: var(--gris);
     padding: 2rem;
     border-radius: 10px;
-    scroll-snap-align: center;
-    scroll-snap-stop: always;
 }
 .formulario legend {
     text-align: center;
@@ -232,7 +222,3 @@ h2 {
     justify-content: flex-end;
 }
 
-p {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
