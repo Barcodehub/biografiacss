@@ -12,7 +12,7 @@ p {
     line-height: 2;
     padding-left: 100px;
     padding-right: 100px;
-    text-align: center;
+    /* text-align: center; */
 }
 body {
     font-family: 'Krub', sans-serif;
@@ -76,9 +76,22 @@ h2 {
 .hero {
     height: 450px;
     background-image: url(../img/mik.png);
+    /* background-position: -20px -100px;  */
+    background-size: 40%;
+    background-size: auto;
+    background-position: center 20%;
     margin-bottom: 2rem;
     position: relative;
 }
+@media (max-width: 768px) {
+  .hero {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%; 
+}
+}
+
+
 
 .contenido-hero {
     background-color: rgb(0 0 0 / 70%); /** Otra opción **/
