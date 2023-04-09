@@ -10,7 +10,9 @@
   <title>Hoja de Vida</title>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.0/normalize.css">
   <link href="https://fonts.googleapis.com/css?family=Krub:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styletodo.css">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/botonIcon.css">
 </head>
 
 <body>
@@ -79,11 +81,9 @@
       tecnologías de programación. Con su dedicación y perseverancia, está seguro de que logrará alcanzar sus
       objetivos y convertirse en un programador de éxito en el futuro.</P>
 
-
-
-
-
   </main>
+
+
   <div id="contacto" class="contacto">
     <h2>Contacto</h2>
     <form class="formulario" action="#" method="POST">
@@ -93,22 +93,26 @@
         <div class="campo">
           <label>Nombre</label>
 
-          <input type="text" name="nombre" placeholder="Nombre" required>
+          <!-- <input type="text" name="nombre" placeholder="Nombre" required> -->
+          <input class="campo__field" type="text" placeholder="Tu Nombre" id="nombre">
+
         </div>
         <div class="campo">
-          <label>Teléfono</label>
+          <label>Telefono</label>
 
-          <input type="tel" name="telefono" placeholder="Teléfono">
+          <!-- <input type="tel" name="telefono" placeholder="Teléfono"> -->
+          <input class="campo__field" type="tel" placeholder="Tu Telefono" id="telefono">
         </div>
         <div class="campo w-100">
           <label>Correo</label>
 
-          <input type="mail" name="correo" placeholder="Mail">
+          <!-- <input type="mail" name="correo" placeholder="Mail"> -->
+          <input class="campo__field" type="email" placeholder="Tu E-mail" id="email">
         </div>
         <div class="campo w-100">
           <label>Mensaje:</label>
 
-          <textarea></textarea>
+          <textarea id="mensaje"></textarea>
         </div>
       </div><!--.contenedor-campos-->
       <div class="enviar">
@@ -119,13 +123,14 @@
 
 
 
-<img class="chikka" src="/img/chika-dance.gif" alt="">
+  <!--  <img class="chikka" src="/img/chika-dance.gif" alt=""> -->
 
   <footer class="footer">
     <p>Todos los derechos reservados.</p>
     <p>Brayan Barco</p>
     <p>Universidad Francisco de Paula Santander</p>
   </footer>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
