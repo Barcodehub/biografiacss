@@ -14,6 +14,7 @@
     .contenido-principal{
         grid-area: contenido;
 
+        /* aqui luego de dividir en 2, esta se divide a suvez en dos - - */
         display: grid;
         grid-template-areas: "entrada1 entrada2";
         grid-template-columns: repeat(2, 1fr);

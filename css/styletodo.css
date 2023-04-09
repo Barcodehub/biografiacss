@@ -9,12 +9,12 @@ html {
     min-height: 100%;
 }
 p {
-    line-height: 2;
-    padding: 0 40px 0 40px;
+    line-height: 2; /* altura linea doble del tamaño de la fuente */
+    padding: 0 40px 0 40px; /* izq derch */
 }
 body {
     font-family: 'Krub', sans-serif;
-    background-image: linear-gradient(to top, var(--secundario) 0%, white 100%);
+    background-image: linear-gradient(to top, var(--secundario) 0%, white 100%); /* degradado de la pagina entera, color saliente*/
     min-height: 100%;
     
 }
@@ -32,10 +32,10 @@ h2 {
 }
 
 .contenedor {
-    margin: 0 auto;
-    max-width: 1200px;
+    margin: 0 auto; /* centrar horizontalmente  */
+    max-width: 1200px; /* ancho max, */
 }
-.sombra {
+.sombra { /* sombreado y marcado  */
     padding: 2rem;
     margin-bottom: 3rem;
     background-color: rgba(255, 255, 255, 1);
@@ -52,7 +52,7 @@ h2 {
 
 .navegacion {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* columnas */
     align-items: center;
 }
 @media (min-width:768px) {
@@ -63,7 +63,7 @@ h2 {
 }
 .navegacion a{
     padding: 1rem 2rem;
-    color: var(--blanco);
+    color: var(--oscuro);
     text-decoration: none;
     font-size: 1.4rem;
     font-weight: 700;
@@ -88,8 +88,6 @@ h2 {
 span{
     font-style: italic;
 }
-
-
 
 img{
     max-width: 100%;

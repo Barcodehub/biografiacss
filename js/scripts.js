@@ -1,9 +1,3 @@
-
-
-
-
-
-
 const datos = {
     nombre: '',
     email: '',
