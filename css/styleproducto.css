@@ -1,10 +1,4 @@
 
-img {
-    max-width: 100%;
-}
-
-
-
 @media (min-width: 768px) {
   
     .layout-shifter{
@@ -32,7 +26,7 @@ img {
     .layout-shifter{
         grid-template-areas: "contenido sidebar";
         column-gap: 2rem;
-        
+       
     }
 
     .sidebar{
@@ -45,12 +39,6 @@ img {
         grid-template-columns: repeat(2, 1fr);
         grid-template-columns: unset;
     }
+
 }
 
-.boton, .iconos {
-    display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  
-}

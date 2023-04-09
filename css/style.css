@@ -1,18 +1,4 @@
 
-p {
-    padding-left: 100px;
-    padding-right: 100px;
-    /* text-align: center; */
-}
-@media (max-width: 768px) {
-    p{
-    padding-left: 40px;
-    padding-right: 40px;
-}
-}
-
-
-
 .hero {
     height: 450px;
     background-image: url(../img/mik.png);
@@ -132,19 +118,6 @@ p {
     display: flex;
     justify-content: center;
 }
-
-
-/* .chikka{
-    position: relative;
-        left: 74%;
-        bottom: 28.5rem;
-}
-@media (max-width: 1151px) {
-    .chikka{
-    display: none 
-   
-    }
-} */
 
 .error {
     background-color: rgb(185, 0, 0);
